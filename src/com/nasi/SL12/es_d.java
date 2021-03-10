@@ -1,10 +1,10 @@
 package com.nasi.SL12;
 
-/* ES_4: data una matrice m x n, indivudare la riga/le righe con il maggior numero di numeri negativi*/
+/* ES_D: data una matrice m x n, indivudare la riga/le righe con il maggior numero di numeri negativi*/
 
 import java.util.Scanner;
 
-public class es_4 {
+public class es_d {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
