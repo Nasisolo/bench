@@ -22,8 +22,9 @@ public class Rovesciamento {
         System.out.println(parola);
     }
 
-    /* se l'array contiene al più un elemento non è necessario rovesciarlo, altrimenti rimanda alla funzzione
-    *  ausiliaria che rovescerà l'array ricorsivamente */
+    /** se l'array contiene al più un elemento non è necessario rovesciarlo, altrimenti rimanda alla funzione
+     *  ausiliaria che rovescerà l'array ricorsivamente
+    */
     public static void rovesciamento(char[] x){
         if(x.length <= 1)
             return;
