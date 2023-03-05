@@ -1,7 +1,5 @@
 package com.nasi.rovesciamento;
 
-import java.util.Arrays;
-
 public class Rovesciamento {
 
     /*  RICORSIONE:
