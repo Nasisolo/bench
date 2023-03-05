@@ -8,7 +8,7 @@ public class Rovesciamento {
         Sia x un array di caratteri (che rappresenta una sola parola). Definiamo ricorsivamente il
         rovesciamento di x come segue:
         - se x ha lunghezza <= 1 allora il rovesciamento di x è x.
-        - altrimenti se x[1...x.length-2] è stato già rovesciato, allora il rovescio di x è ottenuto  scambiando x[0]
+        - altrimenti se x[1...x.length-2] è stato già rovesciato, allora il rovescio di x è ottenuto scambiando x[0]
           con x[x.length-1].
 
        Scrivi un metodo ricorsivo
