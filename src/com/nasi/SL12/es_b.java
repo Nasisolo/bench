@@ -2,6 +2,8 @@ package com.nasi.SL12;
 
 /* ES_B: dato un vettore, dire quanti sono gli elementi diversi */
 
+import org.jetbrains.annotations.NotNull;
+
 public class es_b {
 
     public static void main(String[] args){
@@ -16,7 +18,7 @@ public class es_b {
 
     }
 
-    public static int count_differents_nums(int[] vet){
+    public static int count_differents_nums(int @NotNull [] vet){
         /* ordino l'array - Bubble sort */
         for (int i = 0; i < vet.length-1; i++)
             for (int j = 0; j < vet.length-i-1; j++)
