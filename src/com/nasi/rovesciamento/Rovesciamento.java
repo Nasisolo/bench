@@ -34,7 +34,7 @@ public class Rovesciamento {
     }
 
     /* questa funzione scambia l'elemento in indice head con l'elemento in posizione tail ed esegue la ricorsione
-    *  sull'array MENO i due elementi già scambiati */
+    *  sull' array MENO i due elementi già scambiati */
     public static void rovesciamento_aux(char[] x, int head, int tail){
         if(head > tail)
             return;
